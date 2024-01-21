@@ -1,0 +1,9 @@
+.link{
+color: #50a622;
+text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+}

@@ -1,0 +1,51 @@
+.cover {
+  margin: 98px 48px 40px;
+  background-image: url('../../images/aftermath/ava1.jpg');
+  position: relative;
+  display: flex;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  z-index: 0;
+}
+
+.cover::after {
+  content: '';
+  width: 0;
+  height: 0;
+  margin-left: -1;
+  padding-top: calc(740/1184 * 100%);
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    margin: 92px auto 40px;
+  }
+
+  .cover::after {
+    padding-top: calc(640/1024 * 100%);
+  }
+
+}
+
+@media (max-width: 768px) {
+  .cover {
+    margin-top: 90px;
+  }
+
+  .cover::after {
+    padding-top: calc(480/768 * 100%);
+  }
+
+}
+
+@media (max-width: 767px) {
+  .cover {
+    margin-top: 66px;
+  }
+
+  .cover::after {
+    padding-top: calc(200/320 * 100%);
+  }
+}

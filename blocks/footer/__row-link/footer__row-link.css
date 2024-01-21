@@ -1,0 +1,35 @@
+.footer__row-link {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-right: 18px;
+  -webkit-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: .8s;
+  -o-transition-duration: .8s;
+  transition-duration: .8s;
+  -webkit-transition-timing-function: linear;
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.footer__row-link:hover {
+  opacity: .8;
+}
+
+@media (max-width: 767px) {
+  .footer__row-link {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+
+  .footer__row-link:last-child {
+    padding-bottom: 48px;
+  }
+}

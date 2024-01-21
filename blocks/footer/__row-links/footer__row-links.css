@@ -1,0 +1,10 @@
+.footer__row-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .footer__row-links {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.intro__container{
+display: flex;
+border-top: 1px gray;
+  margin-top: 40px;
+  margin-bottom: 33px;
+}
+
+@media (max-width: 768px) {
+  .intro__container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 618px) {
+  .intro__container {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__container {
+    margin-bottom: 34px;
+  }
+}

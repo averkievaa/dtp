@@ -1,0 +1,36 @@
+.map {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  max-width: 984px;
+  min-height: 300px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  display: flex;
+  border-radius: 20px;
+}
+
+.map:hover {
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .map {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map {
+    max-width: 720px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .map {
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,35 @@
+.place__paragraphs {
+  display: grid;
+  display: -ms-grid;
+  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
+  grid-template-columns: minmax(min-content, 484px);
+  margin: 0;
+  gap: 26px;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraphs {
+    grid-template-columns: minmax(min-content, 456px);
+    gap: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__paragraphs {
+    grid-template-columns: minmax(min-content, 352px);
+    gap: 25px;
+  }
+}
+
+@media (max-width: 766px) {
+  .place__paragraphs {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraphs {
+    grid-template-columns: minmax(min-content, 288px);
+    padding-right: 16px;
+  }
+}

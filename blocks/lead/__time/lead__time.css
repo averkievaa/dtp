@@ -1,0 +1,29 @@
+.lead__time {
+  max-width: 640px;
+  /*min-height: 72px;*/
+  margin: 0 auto 32px;
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+  .lead__time {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead__time {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    max-width: 288px;
+    /*min-height: 40px;*/
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

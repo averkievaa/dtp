@@ -1,0 +1,29 @@
+.video{
+  display: flex;
+  flex-direction: column;
+  max-width: 1184px;
+  align-items: center;
+  justify-content: center;
+  margin: 90px auto 30px;
+}
+
+@media (max-width: 1024px) {
+  .video {
+    max-width: 928px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video {
+    max-width: 720px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .video {
+    max-width: 320px;
+  }
+}
